@@ -1,3 +1,3 @@
 FROM centos
-RUN yum install -y nginx
+RUN dnf install nginx
 CMD ["nginx","-g","daemon off"]
